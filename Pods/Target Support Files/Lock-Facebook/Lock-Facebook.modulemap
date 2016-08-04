@@ -1,0 +1,6 @@
+framework module LockFacebook {
+  umbrella header "Lock-Facebook-umbrella.h"
+
+  export *
+  module * { export * }
+}

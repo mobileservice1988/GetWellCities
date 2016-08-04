@@ -1,0 +1,6 @@
+framework module Pods_GetWell {
+  umbrella header "Pods-GetWell-umbrella.h"
+
+  export *
+  module * { export * }
+}

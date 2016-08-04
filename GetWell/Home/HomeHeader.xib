@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="bMS-tC-JEV">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5lv-7P-IwN">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5lv-7P-IwN" firstAttribute="leading" secondItem="bMS-tC-JEV" secondAttribute="leading" id="LgH-oM-xOm"/>
+                <constraint firstItem="5lv-7P-IwN" firstAttribute="trailing" secondItem="bMS-tC-JEV" secondAttribute="trailing" id="O1g-0p-EYB"/>
+                <constraint firstItem="5lv-7P-IwN" firstAttribute="bottom" secondItem="bMS-tC-JEV" secondAttribute="bottom" priority="750" constant="-20" id="nCB-Kd-Bbn"/>
+                <constraint firstItem="5lv-7P-IwN" firstAttribute="top" secondItem="bMS-tC-JEV" secondAttribute="top" id="nS2-AJ-yee"/>
+            </constraints>
+            <point key="canvasLocation" x="319" y="414"/>
+        </view>
+    </objects>
+</document>
